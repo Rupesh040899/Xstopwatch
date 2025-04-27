@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 export default function App() {
   const [time, setTime] = useState(0);
-  const [val, setVal] = useState(true);
+  const [val, setVal] = useState(false);
 
   const handleChange = () => {
     setVal((prevVal) => !prevVal);
